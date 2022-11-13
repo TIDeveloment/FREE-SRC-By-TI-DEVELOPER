@@ -10,7 +10,7 @@ PHP , SQL , PDO , CSS , JS
 <hr>
 
 ```php
-git clone https://github.com/
+https://github.com/TIDeveloment/FREE-SRC-By-TI-DEVELOPER.git
 ```
 
 ### connection.php
