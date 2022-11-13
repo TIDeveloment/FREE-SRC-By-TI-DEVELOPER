@@ -19,7 +19,7 @@ https://github.com/TIDeveloment/FREE-SRC-By-TI-DEVELOPER.git
 ```php
 <?php 
 
-    $conn = mysqli_connect("localhost", "root", "", "Database");
+    $conn = mysqli_connect("localhost", "root", "", "Database"); -- อย่าลืมไส่ชื่อ ฐานข้อมูลของคุณ
 
     if (!$conn) {
         die("Failed to connec to databse " . mysqli_error($conn));
@@ -37,7 +37,7 @@ https://github.com/TIDeveloment/FREE-SRC-By-TI-DEVELOPER.git
     $db_host = "localhost";
     $db_user = "root";
     $db_password = "";
-    $db_name = "Database";
+    $db_name = "Database"; -- อย่าลืมไส่ชื่อ ฐานข้อมูลของคุณ
 
     try {
         $db = new PDO("mysql:host={$db_host}; dbname={$db_name}", $db_user, $db_password);
